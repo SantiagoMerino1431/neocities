@@ -1,0 +1,291 @@
+.base{
+    background: #E5E5E5
+}
+
+.contenedor{
+    position: absolute;
+width: 444px;
+height: 1323px;
+left: 0px;
+top: 0px;
+background: #F2994A;
+}
+
+.img1{
+    position: absolute;
+    width: 379px;
+    height: 352px;
+    left: 33px;
+    top: 32px;
+}
+
+.txth1cont{
+    position: absolute;
+width: 161px;
+height: 83px;
+left: 20px;
+top: 451px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 74px;
+color: #F2F2F2;
+}
+
+.txth2cont{
+    position: absolute;
+    width: 292px;
+    height: 79px;
+    left: 14px;
+    top: 931px;
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 74px;
+    color: #F2F2F2;
+}
+
+.txtpcont{
+    position: absolute;
+width: 407px;
+height: 393px;
+left: 27px;
+top: 552px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+color: #000000;
+}
+
+.hr1{
+position: absolute;
+width: 407px;
+height: 0px;
+left: 15px;
+top: 550px;
+border: 8px solid #F2F2F2;
+}
+
+.hr2{
+position: absolute;
+width: 407px;
+height: 0px;
+left: 15px;
+top: 1046px;
+border: 8px solid #F2F2F2;
+}
+
+.hr3{
+    position: absolute;
+width: 786px;
+height: 0px;
+left: 552px;
+top: 150px;
+border: 4px solid #F9C496;
+}
+
+.correo{
+    position: absolute;
+width: 354px;
+height: 33px;
+left: 84px;
+top: 1066px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 29px;
+line-height: 33px;
+text-decoration-line: underline;
+color: #000000;
+}
+
+.correoimg{
+position: absolute;
+width: 63px;
+height: 63px;
+left: 9px;
+top: 1075px;
+}
+
+.telefono{
+position: absolute;
+width: 174px;
+height: 33px;
+left: 83px;
+top: 1150px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 29px;
+line-height: 33px;
+color: #000000;
+}
+
+.telefonoimg{
+position: absolute;
+width: 63px;
+height: 63px;
+left: 14px;
+top: 1160px;
+}
+
+.direccion{
+    position: absolute;
+width: 297px;
+height: 33px;
+left: 83px;
+top: 1244px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 29px;
+line-height: 33px;
+color: #000000;
+}
+
+.direccionimg{
+    position: absolute;
+width: 63px;
+height: 63px;
+left: 9px;
+top: 1240px;
+}
+
+.h2{
+    position: absolute;
+width: 305px;
+height: 87px;
+left: 552px;
+top: 40px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 74px;
+color: #F9C496;
+}
+
+.h3{
+    position: absolute;
+width: 174px;
+height: 41px;
+left: 636px;
+top: 144px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+color: #F9C496;
+}
+
+.txtp1{
+    position: absolute;
+width: 664px;
+height: 83px;
+left: 659px;
+top: 185px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+color: #000000;
+}
+
+.h31{
+    position: absolute;
+width: 174px;
+height: 41px;
+left: 636px;
+top: 302px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+color: #F9C496;
+}
+
+.txtp2{
+    position: absolute;
+width: 664px;
+height: 83px;
+left: 659px;
+top: 343px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+color: #000000;
+}
+
+.h32{
+    position: absolute;
+width: 126px;
+height: 41px;
+left: 636px;
+top: 460px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+color: #F9C496;
+}
+
+.txtp3{
+    position: absolute;
+width: 664px;
+height: 83px;
+left: 659px;
+top: 510px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+color: #000000;
+}
+
+.h21{
+    position: absolute;
+width: 804px;
+height: 106px;
+left: 552px;
+top: 617px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 74px;
+color: #F9C496;
+}
+
+.hr4{
+    position: absolute;
+width: 786px;
+height: 0px;
+left: 552px;
+top: 730px;
+border: 4px solid #F9C496;
+}
+
+.lu{
+    position: absolute;
+width: 631px;
+height: 403px;
+left: 659px;
+top: 735px;
+font-family: Times New Roman;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+color: #000000;
+}
