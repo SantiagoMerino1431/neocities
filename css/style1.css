@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Sansita+Swashed:wght@900&display=swap');
+
+body{
+	background: url('https://cdn57.androidauthority.net/wp-content/uploads/2015/11/00-best-backgrounds-and-wallpaper-apps-for-android-920x470.jpg');
+	  background-position: center center;
+  	
+  	background-size: cover;
+	height: 100%;
+  	width: 100%;
+  	backdrop-filter: blur(10px);  
+  	-webkit-backdrop-filter: blur(10px);
+
+
+}
+
+h2{
+	color: #252422;
+	font-family: 'Sansita Swashed', cursive;
+}
+
+p{
+	color: #403D39;
+	font-family: 'Inconsolata', monospace;
+}
+
+.container{
+	position: absolute;
+	top: 0%;
+	left: 20%;
+	right: 20%;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-start;
+    }
+
+.flex-item:nth-child(1) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    padding-top: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    text-align: center;
+    background-color: #FFFCF2;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+    }
+
+.flex-item:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 50%;
+    padding: 20px;
+    margin: 30px auto;
+    margin-left: 50px;
+    text-align: center;
+    background-color: #FFFCF2;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+	-moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.53);
+    }
+
+.Button {
+	box-shadow: 0px 1px 0px 0px #1c1b18;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:15px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#505739;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 1px;
+	padding-bottom:1px; 
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.Button:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+
+.rotate-center {
+	animation: rotate-center 0.6s ease-in-out both;
+}
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
